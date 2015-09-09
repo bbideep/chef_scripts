@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 if ARGV.length < 3
 	puts "Usage: ./chef_upload_script.rb 'GitHub Repo URL' 'Databag|Cookbook|Role|Environment' 'Comma separated artifacts'"
